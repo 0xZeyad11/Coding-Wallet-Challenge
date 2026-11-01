@@ -15,6 +15,7 @@ for outgoing transactions.
 
 -   [Overview](#overview)
 -   [Architecture](#architecture)
+- [Getting Started & Installation](#getting-started)
 -   [Data model](#data-model)
 -   [API endpoints](#api-endpoints)
 -   [Incoming transaction flow](#incoming-transaction-flow)
@@ -42,6 +43,24 @@ The receive endpoint currently recognizes two input formats:
 A transaction\'s `reference` is unique in the database. Existing
 references are filtered out before insertion, and the insert query also
 uses `orIgnore()` to ignore conflicts.
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (LTS)
+- npm
+- PostgreSQL
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd wallet-coding-challenge
+```
 
 ## Architecture
 

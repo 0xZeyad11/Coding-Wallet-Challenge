@@ -58,7 +58,7 @@ Make sure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/0xZeyad11/Coding-Wallet-Challenge
 cd wallet-coding-challenge
 ```
 
